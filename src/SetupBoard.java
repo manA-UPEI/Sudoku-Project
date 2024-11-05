@@ -22,15 +22,15 @@ public class SetupBoard {
     }
     //public static void playGame(ArrayList<ArrayList<Integer>> board){
     public static ArrayList<ArrayList<Integer>> playGame(){
-        ArrayList<Integer> row1 = new ArrayList<> (Arrays.asList(5,3,0,0,7,0,0,0,0));
-        ArrayList<Integer> row2 = new ArrayList<> (Arrays.asList(6,0,0,1,9,5,0,0,0));
-        ArrayList<Integer> row3 = new ArrayList<> (Arrays.asList(0,9,8,0,0,0,0,6,0));
-        ArrayList<Integer> row4 = new ArrayList<> (Arrays.asList(8,0,0,0,6,0,0,0,3));
-        ArrayList<Integer> row5 = new ArrayList<> (Arrays.asList(4,0,0,8,0,3,0,0,1));
-        ArrayList<Integer> row6 = new ArrayList<> (Arrays.asList(7,0,0,0,2,0,0,0,6));
-        ArrayList<Integer> row7 = new ArrayList<> (Arrays.asList(0,6,0,0,0,0,2,8,0));
-        ArrayList<Integer> row8 = new ArrayList<> (Arrays.asList(0,0,0,4,1,9,0,0,5));
-        ArrayList<Integer> row9 = new ArrayList<> (Arrays.asList(0,0,0,0,8,0,0,7,9));
+        ArrayList<Integer> row1 = new ArrayList<> (Arrays.asList(5,3,4,0,7,0,9,0,2));
+        ArrayList<Integer> row2 = new ArrayList<> (Arrays.asList(6,0,0,1,9,5,0,4,8));
+        ArrayList<Integer> row3 = new ArrayList<> (Arrays.asList(0,9,8,0,4,0,5,6,0));
+        ArrayList<Integer> row4 = new ArrayList<> (Arrays.asList(8,5,0,7,6,0,4,0,3));
+        ArrayList<Integer> row5 = new ArrayList<> (Arrays.asList(4,2,0,8,0,3,0,9,1));
+        ArrayList<Integer> row6 = new ArrayList<> (Arrays.asList(7,0,3,9,2,0,8,5,6));
+        ArrayList<Integer> row7 = new ArrayList<> (Arrays.asList(0,6,0,5,0,7,2,8,0));
+        ArrayList<Integer> row8 = new ArrayList<> (Arrays.asList(2,8,0,4,1,9,0,3,5));
+        ArrayList<Integer> row9 = new ArrayList<> (Arrays.asList(3,4,5,0,8,6,0,7,9));
         ArrayList<ArrayList<Integer>> boards = new ArrayList<>(Arrays.asList(row1,row2,row3,row4,row5,row6,row7,row8,row9));
         printBoard(boards);
         ArrayList<ArrayList<Integer>> newBoard = storeBoard(boards);
