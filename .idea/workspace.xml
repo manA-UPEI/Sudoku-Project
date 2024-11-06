@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a568ad-a872-4f67-8ff1-41db814ce10f" name="Changes" comment="fixed user input, reduced # of 0s">
+    <list default="true" id="24a568ad-a872-4f67-8ff1-41db814ce10f" name="Changes" comment="fixed user putting wrong values">
+      <change afterPath="$PROJECT_DIR$/src/OpeningPhase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SetupBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SetupBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WinStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WinStatus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5
@@ -93,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730849472222</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed user putting wrong values">
+      <option name="closed" value="true" />
+      <created>1730851808573</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730851808573</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -101,7 +111,8 @@
     <MESSAGE value="Added makeBoard func" />
     <MESSAGE value="Added bunch of functions to it." />
     <MESSAGE value="fixed user input, reduced # of 0s" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed user input, reduced # of 0s" />
+    <MESSAGE value="fixed user putting wrong values" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed user putting wrong values" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Sudoku_Project$Main.ic" NAME="Main Coverage Results" MODIFIED="1730840024625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
