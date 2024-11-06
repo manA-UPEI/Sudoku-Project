@@ -19,15 +19,20 @@ public class UserInput {
             // Input for row
             while (true) {
                 try {
-                    System.out.println("Enter the row number (1-9) which you want to put the value in: ");
+                    System.out.println("Enter the row number (1-9) which you want to put the value in, and Enter 0 to EXIT: ");
                     row = scanner.nextInt();
-                    if (row < 1 || row > 9) {
-                        System.out.println("Invalid row number. Please enter a row number between 1 and 9.");
-                    } else {
+                    if (row < 0 || row > 9) {
+                        System.out.println("Invalid row number. Please enter a row number between 1 and 9 and Enter 0 to EXIT.");
+                    }
+                    if (row == 0){
+                        System.out.println("You pressed 0, Game is successfully exited.");
+                        System.exit(0);
+                    }
+                    else {
                         break; // Exit the loop if the input is valid
                     }
                 } catch (InputMismatchException e) {
-                    System.out.println("Invalid input. Please enter an integer value for the row.");
+                    System.out.println("Invalid input. Please enter an integer value for the row and Enter 0 to EXIT");
                     scanner.next(); // Clear the invalid input from the scanner buffer
                 }
             }
@@ -35,16 +40,22 @@ public class UserInput {
             // Input for column
             while (true) {
                 try {
-                    System.out.println("Enter the column number (1-9) which you want to put the value in: ");
+                    System.out.println("Enter the column number (1-9) which you want to put the value in, and Enter 0 to EXIT: : ");
                     col = scanner.nextInt();
-                    if (col < 1 || col > 9) {
-                        System.out.println("Invalid column number. Please enter a column number between 1 and 9.");
-                    } else {
+                    if (col < 0 || col > 9) {
+                        System.out.println("Invalid column number. Please enter a column number between 1 and 9, and Enter 0 to EXIT: ");
+                    }
+                    if (col == 0){
+                        System.out.println("You pressed 0, Game is successfully exited.");
+                        System.out.println("Thanks for playing!, See you soon :)");
+                        System.exit(0);
+                    }
+                    else {
                         break; // Exit the loop if the input is valid
                     }
                 } catch (InputMismatchException e) {
-                    System.out.println("Invalid input. Please enter an Integer Value for the column.");
-                    scanner.next(); // Clear the invalid input from the scanner buffer
+                    System.out.println("Invalid input. Please enter an Integer Value for the column,  and Enter 0 to EXIT: ");
+                    scanner.next();
                 }
             }
 
@@ -59,8 +70,8 @@ public class UserInput {
                         break; // Exit the loop if the input is valid
                     }
                 } catch (InputMismatchException e) {
-                    System.out.println("Invalid input. Please enter an integer value for the value.");
-                    scanner.next(); // Clear the invalid input from the scanner buffer
+                    System.out.println("Invalid input. Please enter an integer value for the value,  and Enter 0 to EXIT: ");
+                    scanner.next();
                 }
             }
             if (board.get(row-1).get(col-1) == 0){
