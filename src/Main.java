@@ -8,7 +8,7 @@ public class Main {
         ArrayList<ArrayList<Integer>> board = SetupBoard.solnBoard();
 
 
-        var a = SetupBoard.playGame();
+        //var a = SetupBoard.playGame();
         var b =UserInput.takeValues();
         WinStatus.displayResults(b);
 

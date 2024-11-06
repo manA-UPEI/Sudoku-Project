@@ -9,8 +9,7 @@ public static void displayResults(ArrayList<ArrayList<Integer>> board){
     boolean answer = soln.equals(board);
     if(answer){
         System.out.println("You won, Congrats");}
-    else{
-        System.out.println("You lost, Try again later please..");}
+
 }
 }
 

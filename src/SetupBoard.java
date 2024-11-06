@@ -42,8 +42,8 @@ public class SetupBoard {
     }
 
     public static void printBoard(ArrayList<ArrayList<Integer>> data){
-        System.out.println();
-        System.out.println("Currently, playing Sudoku: ");
+        //System.out.println();
+        //System.out.println("Currently, playing Sudoku: ");
         System.out.println();
         ArrayList<String> stringForm = new ArrayList<>();
         for (int j = 0; j<9; j++){        //creating row as string
