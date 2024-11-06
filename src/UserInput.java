@@ -24,7 +24,7 @@ public class UserInput {
                     if (row < 0 || row > 9) {
                         System.out.println("Invalid row number. Please enter a row number between 1 and 9 and Enter 0 to EXIT.");
                     }
-                    if (row == 0){
+                    else if (row == 0){
                         System.out.println("You pressed 0, Game is successfully exited.");
                         System.exit(0);
                     }
@@ -45,7 +45,7 @@ public class UserInput {
                     if (col < 0 || col > 9) {
                         System.out.println("Invalid column number. Please enter a column number between 1 and 9, and Enter 0 to EXIT: ");
                     }
-                    if (col == 0){
+                    else if (col == 0){
                         System.out.println("You pressed 0, Game is successfully exited.");
                         System.out.println("Thanks for playing!, See you soon :)");
                         System.exit(0);
